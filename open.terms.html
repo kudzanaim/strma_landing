@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <link rel="favicon" type="image/png" href="assets/icon/favicon.png"/> -->
+    <link href="./assets/icon/circular.png" rel="icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strma - About</title>
+    
+    <meta name="description" content="Terms of service for Strma Music. Open to read more...">
+    <meta name="keywords" content="strma, strmamusic, strmazimbabwe, strmazim, music, playlist, strmaio, strma.app, strmaartists, artistcorner, strmaartistcorner">
+    
+    <meta property="og:url" content="https://www.strma.app/open.terms">
+    <meta property="og:title" content="Strma Terms of Service">
+    <meta property="og:description" content="Understand how strma service works and our legal standpoint.">
+    <meta property="og:image"content="./assets/SEO/feature.png"/>
+    <meta property="og:type"content="website" />
+    <meta property="fb:app_id" content="605160483224778"/>
+    
+    <link rel="stylesheet" href="./spinners/mk-spinners.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style_old.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/src/components/about/coupon.css" />
+</head>
+<body >
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>window.fbAsyncInit = function() {FB.init({xfbml: true,version: 'v4.0'});};
+            (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"    attribution=setup_tool    page_id="332726620726901" theme_color="#fa3c4c"logged_in_greeting="Hi my name is kudzi! How can we help you?"logged_out_greeting="Hi my name is kudzi! How can we help you?"></div>
+        
+        <div class="App">
+                <!-- Navigation -->
+                <div class="navigation">
+                    <nav class="navigation_oes">
+                        <ol>
+                            <a class="navitem_main" href="./open.player">Web Music Player</a>
+                            <a class="navitem_main artcor_btn_landng" href="./open.artistcorner">Artist Corner</a>
+                            <a class="navitem_main artcor_btn_landng" href="./open.about">Our Story</a>
+                            <a class="navitem_main artcor_btn_landng" href="./open.terms">Terms of Service</a>
+                        </ol>
+                    </nav>
+                </div>
+            
+                <!-- Root -->
+                <div class="root">
+                    <p  style="opacity: 0;height: 0;">
+                    Thanks for choosing Strma (“Strima”, “we”, “us”, “our”). By signing up or otherwise using the Strma service, websites, and software applications
+                    (together, the “Strma Service” or “Service”), or accessing any content or material that is made available by Strma through the Service (the “Content”) 
+                    you are entering into a binding contract with Strma Media.
+
+                    The Strma Service includes social and interactive features. Use of the Strma Service relies on several technical requirements. Your agreement with us 
+                    includes these Terms and Conditions of Use (“Terms”) and our Privacy Policy. (The Terms, Privacy Policy, and any additional terms that you agree to, as
+                    discussed in the Entire Agreement section, are referred to together as the “Agreements”.) If you wish to review the terms of the Agreements, the effective 
+                    version of the Agreements can be found on Strima’s website. You acknowledge that you have read and understood the Agreements, accept these Agreements, and 
+                    agree to be bound by them. If you don’t agree with (or cannot comply with) the Agreements, then you may not use the Strma Service or consume any Content.
+                    </p>
+                </div>
+            
+                <!-- footer -->
+                <div class="footer">
+                    <footer>
+                        <div class="footerItem_login">© Strma, Inc.</div>
+                        <div class="footerItem_login about_btn" onclick="about()">About</div>
+                        <div class="footerItem_login terms_btn_foot" onclick="footerClick(this)">Terms of Service</div>
+                        <a class="footerItem_login" href="https://www.facebook.com" target="_blank"><img class="footer_icon1" src="/assets/icon/facebook.png"></a>
+                        <a class="footerItem_login" href="https://www.instagram.com" target="_blank"><img class="footer_icon1" src="/assets/icon/instagram.png"></a>
+                    </footer>
+                </div>
+        </div>
+    
+    <!-- App Scripts --> 
+    <script src="/assets/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script src="/src/components/backEnd.js"></script>
+    <script src="/src/components/navigation.js"></script>
+    <script src="/src/components/coupons/coupons.js"></script>
+    <script src="/src/components/home/home.js"></script>
+    <script src="/src/components/payments/payments.js"></script>
+    <script src="/src/components/myAccount/account.js"></script>
+    <script src="/src/components/myMusic/mymusic.js"></script>
+    <script src="/src/components/faqs/faqs.js"></script>
+    <script src="/src/components/uploads/uploads.js"></script>
+    <script src="/src/components/terms/terms.js"></script>
+    <script src="/src/components/about/about.js"></script>
+    <script src="/src/components/login/login.js"></script>
+    <script src="/src/components/login/agreement.js"></script>
+    <script src="/src/components/events.js"></script>
+    <script src="/src/components/store/store.js"></script>
+    <script src="/src/components/Router/Router.js"></script>
+    <script src="/src/components/Pager/Pager.js"></script>
+    <script src="/src/components/landing/landing.js"></script>
+    <script src="/src/components/Navigation/Navigation.js"></script>
+    <script src="/src/components/userRegister/register.js"></script>
+    <script src="/src/components/ourStory/ourStory.js"></script>
+    <script src="/src/components/landing/index.html"></script>
+    <script src="/app.controller.js"></script>
+    <script>RouterObject.Router("Terms of Service")</script>
+    <!-- <script src="/build/bundle.js"></script>  -->
+
+</body>
+</html>

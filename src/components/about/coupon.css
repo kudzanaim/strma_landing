@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
+
+/* Desktop */
+.couponOverlayCont {
+    height: 100%;
+    width: 100%;
+    background: rgba(26, 24, 24, 0.95);
+    position: fixed;
+    top: 45px;
+    left: 0;
+    z-index: 10;
+}
+
+.artistCouponCont, .userCouponCont {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 800px;
+    height: 350px;
+    background: #f3f3f3;
+    z-index: 10;
+}
+
+.signUpClickArea {
+    height: 85%;
+}
+
+.coupmain{
+    top: unset;
+    padding-top: 5%;
+}
+
+.CouponButtonContainer {
+    height: 15%;
+}
+
+section.couponClose_btn {
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 15px;
+    transition: all 180ms ease-in 0s;
+}
+
+section.couponOptions {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    top: 25%;
+}
+
+h1.regCoupText_h3 {
+    margin: 0;
+    font-family: roboto;
+    font-size: 16px;
+}
+
+h1.cpn_reg_hdr {
+    font-family: roboto;
+    margin: 0;
+    position: relative;
+    top: 45px;
+    text-align: center;
+    color: #383636;
+}
+
+p.regCoupText_p {
+    margin: 0;
+    font-family: roboto;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.regCoupText {
+    text-align: center;
+}
+
+button.cpn-btn-finish {
+    height: 100%;
+    width: 800px;
+    border: none;
+    background: #039271;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: roboto;
+}
+
+.cls_cpn_svg {
+    height: 20px;
+    width: 20px;
+}
+
+.cls_cpn_svg path {
+    fill: #3a3737;
+}
+
+.cpn_avatar circle {
+    fill: #383636;
+    transition: all 180ms ease-out 0s
+}
+
+.cpn_avatar path {
+    fill: #383636;
+    transition: all 180ms ease-out 0s
+}
+
+.cpn_avatar {
+    height: 45px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.regCoupIcon {
+    display: grid;
+    place-content: center;
+}
+
+.regularSignup{
+    transition: all 180ms ease-in 0s;
+    border-right: solid 1px grey;
+}
+.cpn_liner {
+    width: 30%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+h1.cpn_header {
+    font-family: roboto;
+    font-size: 35px;
+    color: #333030;
+    margin-bottom: 0;
+}
+
+p.cpn_desc_ {
+    font-family: roboto;
+    font-size: 15px;
+    color: #333030;
+    margin-top: 10px;
+}
+
+.couponEnter {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+input.cpn_input {
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    border: solid 1px grey;
+    color: white;
+    letter-spacing: 2px;
+    background: #2a2a2a;
+    text-align: center;
+    outline: none;
+}
+
+input.cpn_input::placeholder {
+    color: grey;
+}
+
+p.welcometostrma {
+    font-family: roboto;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 14px;
+}
+
+h1.cpn_welcome_hdr {
+    font-family: roboto;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    color: #363232;
+    font-weight: 600;
+    padding-top: 15%;
+}
+
+.btncouponsoffercont {
+    height: 35%;
+    width: 25%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    border-top: solid 1px #6c6c6c;
+    padding-top: 3.5%;
+}
+
+button.btncouponsoffer {
+    height: 100%;
+    width: 265%;
+    background: #dd0943;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0 10%;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 1px 3px 11px 0px #17161640;
+}
+
+.usercpnwelcCont {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background: white;
+    z-index: 10;
+    border-radius: 1rem;
+    overflow: hidden
+}
+
+section.couponWelClose_btn {
+    float: right;
+    position: relative;
+    right: 35px;
+    /* top: 25px; */
+    transition: all 180ms ease-in 0s;
+    z-index: 10;
+}
+.clckcpymessge {
+    font-family: roboto;
+    font-weight: 500;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-size: 13px;
+    color: #0c694f;
+}
+
+.couponcodehldr {
+    height: 12%;
+    width: 65%;
+    margin: 0 auto;
+    margin-top:5%;
+}
+
+input.cpncodefield {
+    height: 100%;
+    background: #1f1e1e;
+    width: 100%;
+    border-radius: 0.4rem;
+    text-align: center;
+    border: solid 1px #bfbfbf;
+    letter-spacing: 1px;
+    outline: none;
+    color: white;
+    transition: all 180ms ease-in 0s;
+}
+
+input.cpncodefield::placeholder{
+    color: grey
+}
+
+button.dnereferbtn {
+    width: 100%;
+    height: 100%;
+    background: #d20824;
+    border: none;
+    border-top: solid 1px #b9b9b9;
+    font-size: 15px;
+    font-family: arial;
+    color: white;
+}
+
+.btncpndonecont {
+    position: absolute;
+    top: 340px;
+    height: 15%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hover */
+.regularSignup:hover {
+    cursor: pointer;
+}
+
+.regularSignup:hover .cpn_avatar circle{
+    fill:#068265;
+    transition: all 180ms ease-in 0s
+}
+
+.regularSignup:hover .cpn_avatar path{
+    fill:#068265;
+    transition: all 180ms ease-in 0s
+}
+
+.regularSignup:hover .regCoupText .cpn_liner{
+    width: 80%;
+    height: 2px;
+    border-top:solid 2px #068265;
+}
+
+.couponSignup:hover {
+    cursor: pointer;
+}
+
+.couponSignup:hover .cpn_avatar circle{
+    fill:#068265;
+    transition: all 180ms ease-in 0s
+}
+
+.couponSignup:hover .cpn_avatar path{
+    fill:#068265;
+    transition: all 180ms ease-in 0s
+}
+
+.couponSignup:hover .regCoupText .cpn_liner{
+    width: 80%;
+    height: 2px;
+    border-top:solid 2px #068265;
+}
+
+button.cpn-btn-finish:hover {
+    cursor: pointer;
+    background: #028063;
+}
+
+section.couponClose_btn:hover, section.couponWelClose_btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 180ms ease-in 0s;
+}
+
+button.btncouponsoffer:hover {
+    cursor: pointer;
+    background: #db003c;
+    color: #ffedf2;
+}
+
+.dnereferbtn:hover{
+    cursor: pointer;
+    background: #c4021c;
+}
+
+.cpncodefield:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Queries */
+@media screen and (max-width:600px) {
+
+    .usercpnwelcCont {
+        width: 90vw;
+        height: 65%;
+    }
+
+    p.welcometostrma {
+        font-size: small;
+    }
+    
+    h1.cpn_welcome_hdr {
+        font-size: large;
+    }
+
+    .couponcodehldr {
+        margin-top: 6%;
+    }
+    
+    
+    .btncpndonecont {
+        top: unset;
+        bottom: 0;
+    }
+
+    .couponOverlayCont {
+        width: 100vw;
+        top: 0;
+        height: 100vh;
+    }
+    
+    .artistCouponCont, .userCouponCont {
+        width: 90vw;
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 70%;
+        top: 30px;
+    }
+    
+    .signUpClickArea {
+        height: 86%;
+    }
+    
+    h1.cpn_reg_hdr {
+        font-size: 20px;
+    }
+    
+    section.couponOptions {
+        grid-template-rows: 50% 50%;
+        grid-template-columns: unset;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .regularSignup {
+        border-bottom: solid 1px #cacaca;
+        border-right: unset;
+    }
+    
+    .cpn_avatar {
+        height: 25px;
+        width: 25px;
+    }
+    
+    h1.regCoupText_h3 {
+        font-size: 14px;
+    }
+    
+    p.regCoupText_p {
+        font-size: 13px;
+        width: 85%;
+    }
+    
+    .couponSignup {
+        padding-top: 5%;
+    }
+    
+    .CouponButtonContainer {height: 14%;}
+    
+    button.cpn-btn-finish {
+        width: 100%;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+
+
+}
